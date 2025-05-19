@@ -1,0 +1,1 @@
+This project is a web application built with HTML, CSS, and JavaScript that allows users to explore the universe interactively. It features an educational interface showcasing various celestial bodies and astronomical phenomena, providing an engaging and informative experience for users of all ages..
