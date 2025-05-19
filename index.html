@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earth Evolution Simulation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="canvas" width="800" height="600"></canvas>
+
+  <!-- Controls -->
+  <div id="controls">
+    <button onclick="togglePlayPause()">[Play/Pause]</button>
+    <button onclick="resetSimulation()">Reset</button>
+    <select id="stageSelect" onchange="jumpToStage(this.value)">
+      <option value="0">1. Formation of Earth</option>
+      <option value="1">2. Oceans & Atmosphere</option>
+      <option value="2">3. Origin of Life</option>
+      <option value="3">4. Complex Life</option>
+      <option value="4">5. Continental Drift</option>
+      <option value="5">6. Ice Ages</option>
+      <option value="6">7. Asteroid Impact</option>
+      <option value="7">8. Volcanism</option>
+      <option value="8">9. Human Civilization</option>
+      <option value="9">10. Space Colonization</option>
+    </select>
+  </div>
+
+  <!-- Info Section -->
+  <div id="info">
+    <h2>Earth Evolution</h2>
+    <p id="info-desc"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
